@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+}
+
+.suggestions {
+  position: absolute;
+  overflow: auto;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  transform: translate3d(0px, 38px, 0px);
+
+  .suggestionItem {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
